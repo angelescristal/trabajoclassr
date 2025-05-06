@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Té del Sombrerero Loco</title>
+ <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>El Enfriamiento del Té de Alicia</h1>
+    <p>Una aventura matemática en el País de las Maravillas</p>
+  </header>  <main>
+    <h2>La ley del enfriamiento de Newton</h2>
+    <p>Durante la merienda eterna del <span class="highlight">Sombrerero Loco</span>, Alicia observa que el té siempre está tibio, como si el tiempo no pasara. Pero en realidad, el tiempo avanza... solo que no de manera lineal.</p><p>La temperatura del té se modela con la siguiente ecuación diferencial:</p>
+<div class="formula">
+  dT/dt = -k(T - Ta)
+</div>
+
+<p>Su solución es:</p>
+<div class="formula">
+  T(t) = Ta + (T0 - Ta) * e<sup>-kt</sup>
+</div>
+<div class="container">
+    <h1>Modelo de Enfriamiento de Newton</h1>
+
+    <p>La ecuación de enfriamiento de Newton modela cómo la temperatura de un objeto cambia con el tiempo cuando se encuentra en un ambiente con temperatura constante:</p>
+
+    <code>T(t) = T<sub>a</sub> + (T<sub>0</sub> - T<sub>a</sub>) · e<sup>−kt</sup></code>
+
+    <p>Donde:</p>
+    <ul>
+      <li><strong>T(t)</strong>: Temperatura del objeto en el tiempo t</li>
+      <li><strong>T<sub>a</sub></strong>: Temperatura del ambiente</li>
+      <li><strong>T<sub>0</sub></strong>: Temperatura inicial del objeto</li>
+      <li><strong>k</strong>: Constante de enfriamiento</li>
+    </ul>
+
+    <div class="example">
+      <h3>Ejemplo práctico</h3>
+      <p>Supón que un café tiene temperatura inicial de 90°C en una habitación a 20°C, y la constante de enfriamiento es k = 0.05.</p>
+      <p>La fórmula queda así:</p>
+      <code>T(t) = 20 + (90 - 20) · e<sup>−0.05t</sup></code>
+      <p>Es decir:</p>
+      <code>T(t) = 20 + 70 · e<sup>−0.05t</sup></code>
+    </div>
+
+<p>Aquí:</p>
+<ul>
+  <li><strong>T(t):</strong> Temperatura del té en el tiempo t</li>
+  <li><strong>Ta:</strong> Temperatura del ambiente</li>
+  <li><strong>T0:</strong> Temperatura inicial del té</li>
+  <li><strong>k:</strong> Constante de enfriamiento</li>
+</ul>
+
+<p>En el País de las Maravillas, el tiempo parece seguir una función no lineal, como <em>t<sup>2</sup></em> o <em>√t</em>, por lo que la fórmula puede modificarse como:</p>
+<div class="formula">
+  T(t) = Ta + (T0 - Ta) * e<sup>-k * f(t)</sup>
+</div>
+<div class="container">
+    <h1>Fórmula del Enfriamiento de Newton</h1>
+    
+    <p>La fórmula que describe el cambio de temperatura en un objeto que se enfría en un entorno con temperatura constante es:</p>
+    
+    <code>T(t) = T<sub>a</sub> + (T<sub>0</sub> - T<sub>a</sub>) · e<sup>−k · f(t)</sup></code>
+
+    <p>Donde:</p>
+    <ul>
+      <li><strong>T(t)</strong>: Temperatura del objeto en el tiempo <em>t</em></li>
+      <li><strong>T<sub>a</sub></strong>: Temperatura del ambiente</li>
+      <li><strong>T<sub>0</sub></strong>: Temperatura inicial del objeto</li>
+      <li><strong>k</strong>: Constante positiva de enfriamiento</li>
+      <li><strong>f(t)</strong>: Tiempo transcurrido (puede ser simplemente <em>t</em>)</li>
+    </ul>
+
+    <div class="example">
+      <h3>Ejemplo:</h3>
+      <p>Supongamos:</p>
+      <ul>
+        <li>T<sub>0</sub> = 90°C (temperatura inicial del café)</li>
+        <li>T<sub>a</sub> = 20°C (temperatura ambiente)</li>
+        <li>k = 0.1</li>
+        <li>f(t) = t</li>
+      </ul>
+      <p>Entonces:</p>
+      <code>T(t) = 20 + (90 - 20) · e<sup>−0.1 · t</sup></code>
+      <p>Es decir:</p>
+      <code>T(t) = 20 + 70 · e<sup>−0.1t</sup></code>
+    </div>
+<p>¡Qué mágico es el mundo de Alicia!</p>
+
+  </main>  <footer>
+    &copy; 2025 Alicia en el País de las Matemáticas
+  </footer>
+</body>
+</html>
