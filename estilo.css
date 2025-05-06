@@ -1,0 +1,50 @@
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #333;
+}header {
+background-color: #6a0572;
+color: rgb(180, 127, 46);
+padding: 20px;
+text-align: center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+main {
+padding: 40px;
+max-width: 900px;
+margin: auto;
+background: rgb(163, 88, 178);
+border-radius: 12px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+color: #6a0572;
+}
+
+.formula {
+background-color: #844f4f;
+padding: 10px 15px;
+border-left: 5px solid #6a0572;
+font-family: 'Courier New', Courier, monospace;
+margin: 20px 0;
+}
+
+.highlight {
+color: #f76c6c;
+font-weight: bold;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background-color: #6a0572;
+color: rgb(122, 86, 50);
+margin-top: 40px;
+}
+
+</style>
